@@ -1,6 +1,5 @@
 # BG-Kennels
 
-
 Welcome to BG Kennels, where you can meet our adorable dogs and learn about our kennel's passion for canine companionship.
 
 ## Overview
