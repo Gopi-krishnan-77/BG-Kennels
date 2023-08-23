@@ -1,13 +1,16 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
 body {
     background-color: #d1acb9;
     font-family: Arial, sans-serif;
 }
+
 
 header {
     background-color: #000000;
@@ -35,17 +38,18 @@ nav a {
     font-weight: bold;
 }
 
+
 .top-container {
-    background-image: url('./pets-3715733.jpg');
+    background-image: url('./pets-3715733.jpg'); 
     background-size: cover;
     background-position: center;
-    height: 85vh;
+    height: 85vh; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff;
+    color: #fff; 
 }
 
 .title-text h1 {
@@ -55,6 +59,7 @@ nav a {
     font-family: 'Tinos', serif;
 }
 
+
 .subtitle {
     text-align: center;
     margin-top: 20px;
@@ -62,58 +67,89 @@ nav a {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
 }
 
+
 .subtitle h2 {
     font-size: 2rem;
-    color: #ffffff;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+    color: #ffffff; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1.5);
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    font-weight: bolder; 
 }
 
 #about {
+     
     padding: 40px;
 }
 
 #about h3 {
     font-size: 2.5rem;
     color: #000000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
 }
 
 .about-section p {
     font-size: 1rem;
-    color: #333333;
+    color: #333333; 
     margin-bottom: 20px;
 }
-
 .service-card-img {
-    height: 200px;
-    object-fit: cover;
-}
+    height: 200px; 
+    object-fit: cover; }
 
 .gallery-image {
-    width: 100%;
-    height: auto;
+    width: 100%; 
+    height: auto; 
 }
 
 footer {
-    background-color: #343a40;
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
+    background-color: #343a40; 
+    color: #ffffff; 
+    padding: 20px 0; 
+    text-align: center; 
 }
 
 footer a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
+    color: #ffffff; 
+    text-decoration: none; 
+    font-weight: bold; 
 }
 
 footer a:hover {
-    text-decoration: underline;
+    text-decoration: underline; 
 }
 
+
 @media (max-width: 768px) {
+    footer .col-md-4 {
+        text-align: center;
+    }
+}
+.bottom-container {
+
+    background-color: #333333; 
+    text-align: center; 
+    padding: 40px 0; 
+  }
+  
+  
+  .footer-link {
+    text-decoration: none;
+    color: white; 
+    font-size: 1.2em; 
+    margin: 0 10px; 
+  }
+  
+  
+  .copyright {
+    font-size: 1em; 
+    color: white; 
+    margin-top: 10px; 
+  }
+  #gallery h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+  }
+  @media (max-width: 768px) {
     header h1 {
         font-size: 28px;
     }
@@ -122,6 +158,7 @@ footer a:hover {
         margin-right: 10px;
     }
 
+    
     .title-text h1 {
         font-size: 3em;
         padding: 20px;
@@ -132,10 +169,12 @@ footer a:hover {
         padding: 10px;
     }
 
+    
     #about {
         padding: 20px;
     }
 
+   
     #about h3 {
         font-size: 2rem;
     }
@@ -144,10 +183,12 @@ footer a:hover {
         font-size: 0.9rem;
     }
 
+    
     .card-body {
         padding: 10px;
     }
 
+    
     .card-title {
         font-size: 1.2rem;
     }
@@ -156,13 +197,21 @@ footer a:hover {
         padding: 20px 0;
     }
 
+    
     .footer-link {
         font-size: 1em;
         margin: 0 5px;
     }
 
+   
     .copyright {
         font-size: 0.8em;
         margin-top: 5px;
     }
 }
+
+
+
+
+
+
